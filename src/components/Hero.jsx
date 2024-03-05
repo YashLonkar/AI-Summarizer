@@ -5,9 +5,15 @@ const Hero =() => {
         <header className="w-full flex justify-center items-center flex-col">
             <nav className="flex justify-between items-center flex-row w-full mn-10 pt-3">
                 <img src={logo} alt="sumz-logo" className="w-28 object-contain"></img>
-                <button type="button" onClick={() => window.open('github.com')} className="black_btn">
+                <div>
+                <button type="button" onClick={() => window.open('github.com')} className="black_btn mr-1.5">
                     GitHub
                 </button>
+                <button type="button" onClick={() => window.open('github.com')} className="black_btn">
+                    LinkedIn
+                </button>
+                </div>
+                
             </nav>
 
             <h1 className="head_text">
